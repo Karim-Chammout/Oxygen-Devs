@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	font-family: 'Poppins', sans-serif;	
+}
+
+header {
+	display: flex;
+	margin: auto;
+	width: 90%;
+	height: 10vh;
+	align-items: center;
+}
+
+.logo-container, .nav-links {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+}
+
+.logo {
+	color: #020659;
+	font-weight: 400;
+	margin: 5px;
+}
+
+nav {
+	flex: 2;
+}
+
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #BF9663;
+}
+
+
+.hamburger {
+	display: none;
+}
+
+.hamburger div{
+	width: 25px;
+	height: 3px;
+	background-color: #BF9663;
+	margin: 5px;
+}
+
+
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+
+.introduction {
+	/* background-color: crimson; */
+	flex: 1;
+}
+
+.introduction .main-btn {
+	padding: 50px 0 0 0 ;
+}
+
+.introduction .main-btn .hire-btn {
+	font-size: 20px;
+	padding: 15px 30px;
+	color: #051726;
+	background-color: transparent;
+	border: 1px solid #051726;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.introduction .main-btn .hire-btn:hover {
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	color: #F2F2F2;
+	/* background: linear-gradient(to right, #051726, #020659, #F29F05, #BF9663, #F2F2F2); */
+	background-color: #020659;
+}
+
+.intro-text {
+	font-size: 30px;
+	font-weight: 500;
+	background: linear-gradient(to right, #590202, #734B3D, #293540, #4C5D73);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.cover {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 65vh;
+}
+
+.cover img {
+	height: 100%;
+	filter: drop-shadow(7px 7px 8px black);
+	animation: drop 1.5s ease-in-out;
+}
+
+.background-circle .big-circle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	opacity: 0.4;
+	height: 90%;
+}
+
+.background-circle .middle-circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	opacity: 0.4;
+	z-index: -1;
+	height: 60%;
+}
+
+.background-circle .small-circle {
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	opacity: 1;
+	z-index: -1;
+	height: 40%;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+@media (max-width: 992px) {
+	.hamburger {
+		display: block;
+
+	}
+
+	.nav-link {
+		display: none;
+	}
+	
+	.presentation {
+		flex-direction: column;
+	}
+
+	.introduction {
+		margin-top: 5vh;
+		text-align: center;
+	}
+
+	.intro-text h1 {
+		font-size: 30px;
+	}
+
+	.introduction .main-btn {
+		padding: 30px 0 0 0 ;
+	}
+
+	.introduction .main-btn .hire-btn {
+		font-size: 18px;
+		padding: 12px 25px; 
+	}
+
+	.cover img {
+		height: 90%;
+		margin-top: 5vh;
+	}
+	.background-circle .big-circle,
+	.background-circle .middle-circle,
+	.background-circle .small-circle {
+		opacity: 0.27;
+	}
+}
+
