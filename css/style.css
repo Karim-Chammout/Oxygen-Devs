@@ -1,12 +1,19 @@
-/* Our Main Colors */
+/* Our Main Colors
 :root {
     --primary-color: #D90416;
     --secondery-color: #030BA6;
     --bg-color: #D2D9D8;
     --white-color: #FAFFF0;
     --dark-color: #444A3E;
-}
+} */
 
+:root {
+    --primary-color: #F24405;
+    --secondery-color: #0052A1;
+    --bg-color: #D2D9D8;
+    --white-color: #FAFFF0;
+    --dark-color: #262626;
+}
 
 * {
 	margin: 0;
@@ -39,11 +46,16 @@ header {
 }
 
 .logo {
-	color: #020659;
-	font-weight: 400;
+	color: #262626;
+	font-weight: 700;
+	font-size: 25px;
 	margin: 5px;
 }
+.logo span {
+	color: #F24405;
+	font-weight: 900;
 
+}
 nav {
 	flex: 2;
 }
@@ -104,7 +116,7 @@ nav {
 	transition: .3s ease-in-out;
 	color: #F2F2F2;
 	/* background: linear-gradient(to right, #051726, #020659, #F29F05, #BF9663, #F2F2F2); */
-	background-color: #020659;
+	background-color: #0052A1;
 }
 
 .intro-text {
