@@ -20,7 +20,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+.hidden {
+	visibility: hidden;
+}
 body {
 	font-family: 'Poppins', sans-serif;
 }
