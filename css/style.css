@@ -1,3 +1,13 @@
+/* Our Main Colors */
+:root {
+    --primary-color: #D90416;
+    --secondery-color: #030BA6;
+    --bg-color: #D2D9D8;
+    --white-color: #FAFFF0;
+    --dark-color: #444A3E;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
