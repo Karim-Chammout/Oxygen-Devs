@@ -2,9 +2,11 @@
 :root {
 	--orange-color: #ff8700;
     --secondery-color: #0D0D0B;
-    --bg-color: #D2D9D8;
-    --font-color: #FAFFF0;
-    --dark-color: #121212;
+	--bg-color: #D2D9D8;
+    --li-font-color: #FAFFF0;
+    --dr-font-color: #111;
+	--dark-color: #121212;
+	--pink-bg-color: #f3912044;
 }
 /* rgb(255, 135, 0) */
 
@@ -14,16 +16,21 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+/* 
+body {
+	height: 2000px;
+} */
 
 /*      Start Upper Bar      */
 
 .upper-bar {
-    background-color: var(--dark-color);
+	background-color: var(--dark-color);
+	opacity: 0.8;
 }
 
 .upper-bar .info {
 	margin: 15px 0;
-    color: var(--font-color);
+    color: var(--li-font-color);
 	
 }
 
@@ -66,6 +73,7 @@
 
 .main-section {
 	padding: 50px 0;
+	/* background-color: var(--pink-bg-color); */
 }
 
 
@@ -79,14 +87,14 @@
 }
 
 .btn-outline-orange {
-	color: #ff8700;
-	border-color: #ff8700;
+	color: var(--orange-color);
+	border-color: var(--orange-color);
 }
 
 .btn-outline-orange:hover {
 	color: #fff;
-	background-color: #ff8700;
-	border-color: #ff8700;
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
 }
 
 .btn-outline-orange:focus, .btn-outline-orange.focus {
@@ -94,23 +102,45 @@
 }
 
 .btn-outline-orange.disabled, .btn-outline-orange:disabled {
-	color: #ff8700;
+	color: var(--orange-color);
 	background-color: transparent;
 }
 
 .btn-outline-orange:not(:disabled):not(.disabled):active, .btn-outline-orange:not(:disabled):not(.disabled).active,
 .show > .btn-outline-orange.dropdown-toggle {
 	color: #fff;
-	background-color: #ff8700;
-	border-color: #ff8700;
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
 }
 
 .btn-outline-orange:not(:disabled):not(.disabled):active:focus, .btn-outline-orange:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-orange.dropdown-toggle:focus {
-	box-shadow: 0 0 0 0.2rem rgba(255, 135, 0, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(255, 136, 0, 0.502);
 }
 
 
 /*      End Main Section      */
+
+/*      Start Features      */
+
+.features {
+	padding-bottom: 100px;
+	/* background-color: var(--bg-color); */
+
+}
+
+.features .h1 {
+	padding: 50px 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: var(--dr-font-color);
+}
+
+.features .card-image {
+	height: 50vh;
+	padding: 20px;
+}
+
+/*      End Features      */
 
 
