@@ -144,3 +144,21 @@ body {
 /*      End Features      */
 
 
+/*      Start Image-paragraph      */
+
+.para-img {
+	padding: 50px 0;
+}
+
+.para-img .text-para {
+	/* width: 50%; */
+	margin-top: 100px;
+}
+
+.para-img .img-para img {
+	height: 60vh;
+}
+
+/*      End Image-paragraph      */
+
+
