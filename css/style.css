@@ -177,22 +177,20 @@
 	opacity: .5;
 }
 
-.big-img .image-text {
+.big-img .big-img-heading {
 	position: relative;
 	top: -270px;
-	left: 32%;
-}
-
-.big-img .image-text h2 {
-	font-size: 80px;
 	margin-bottom: 20px;
+	text-align: center;
+	font-size: 80px;
 	color: #000;
 
 }
 
-.big-img .image-text p {
+.big-img .big-img-para {
 	position: relative;
-	right: 19%;
+	top: -250px;
+	text-align: center;
 	font-size: 50px;
 }
 
@@ -212,8 +210,9 @@
 	opacity: .5;
 }
 
-.double-img .first-img img:hover {
+.double-img .first-img:hover {
 	position: relative;
+	opacity: 1;
 	z-index: 1;
 }
 
