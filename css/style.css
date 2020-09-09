@@ -304,8 +304,8 @@ h3 {
 	flex-direction: row;
 	justify-content: space-between;
 }
-.footer-bar * {
-	/* width: 35%; */
+.footer-bar a span {
+	color: var(--primary-color);
 }
 .footer-bar p {
 	text-align: right;
