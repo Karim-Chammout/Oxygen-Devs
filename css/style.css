@@ -28,9 +28,9 @@ a {
 	color: inherit;
 }
 body {
-	font-family: ;
-
-	font-family: 'Font Awesome 5 Free','Poppins', fontAwesome, sans-serif;
+	font-family: fontAwesome;
+	font-family: fontAwesome, Times, serif;
+	font-family: 'Font Awesome 5 Brands' , 'Font Awesome 5 Free','Poppins', fontAwesome, sans-serif;
 }
 
 button {
@@ -293,19 +293,26 @@ footer {
 }
 h3 {
 	font-size: 25px;
-	color: var(--primary-color);
+	/* color: var(--primary-color); */
 }
 
 .footer-bar {
-	font-family: 'Poppins', 'Font Awesome 5 Free', sans-serif;
-
+	
+	
 	margin: 25px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-.footer-bar a span {
+
+span {
 	color: var(--primary-color);
+}
+.icon {
+	font-family: "Font Awesome 5 Free",fontAwesome;
+}
+.icon::before {
+    font-family: "Font Awesome 5 brand"; font-weight: 900; content: "\f007";
 }
 .footer-bar p {
 	text-align: right;
