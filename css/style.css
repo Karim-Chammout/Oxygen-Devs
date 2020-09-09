@@ -291,14 +291,27 @@ footer {
 .contact * {
 	display: block;
 }
+.contact a:first-of-type:hover i {
+	color: #4267B2;
+}
+.contact a:nth-of-type(2):hover i { 
+	color: #00acee;
+}.contact a:nth-of-type(3):hover i {
+	color: #bc2a8d;
+}.contact a:nth-of-type(4):hover i {
+	color: #0072b1;
+}.contact a:last-of-type:hover i {
+	color: #FF0000;
+}
+
+
+
 h3 {
-	font-size: 25px;
-	/* color: var(--primary-color); */
+	font-size: 1.5em;
+	color: var(--primary-color);
 }
 
 .footer-bar {
-	
-	
 	margin: 25px;
 	display: flex;
 	flex-direction: row;
@@ -308,12 +321,7 @@ h3 {
 span {
 	color: var(--primary-color);
 }
-.icon {
-	font-family: "Font Awesome 5 Free",fontAwesome;
-}
-.icon::before {
-    font-family: "Font Awesome 5 brand"; font-weight: 900; content: "\f007";
-}
+
 .footer-bar p {
 	text-align: right;
 }
