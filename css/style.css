@@ -23,8 +23,14 @@
 .hidden {
 	visibility: hidden;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: ;
+
+	font-family: 'Font Awesome 5 Free','Poppins', fontAwesome, sans-serif;
 }
 
 button {
@@ -225,3 +231,82 @@ nav {
 	}
 }
 
+.quate {
+	width: 60%;
+	height: 125px;
+	background-color:var(--bg-color);
+	color: var(--dark-color);
+	padding: 25px;
+	margin: 40px auto;
+	border-radius: 25px;
+	font-family: serif; 
+	position: relative;
+}
+.quate-text {
+	/* border: 1px solid rebeccapurple; */
+	width: 80%;
+	margin: 5px auto;
+}
+.quate-text q {
+	font-size: 27px;
+	margin: 25px;
+}
+.quate-text p {
+	text-align: right;
+}
+.quate img {
+	position: absolute;
+    width: 75px;
+}
+.quate1 {
+	
+    top: -50px;
+}
+.quate2 {
+	bottom: -20px;
+	right: 25px;
+	transform: rotateY(180deg);
+}
+
+
+
+footer {
+	background-color: var(--dark-color);
+	color: var(--bg-color);
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+.main-footer {
+	display: flex;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+.blaa {
+	width: 35%;
+}
+
+.contact * {
+	display: block;
+}
+h3 {
+	font-size: 25px;
+	color: var(--primary-color);
+}
+
+.footer-bar {
+	font-family: 'Poppins', 'Font Awesome 5 Free', sans-serif;
+
+	margin: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-bar * {
+	/* width: 35%; */
+}
+.footer-bar p {
+	text-align: right;
+}
