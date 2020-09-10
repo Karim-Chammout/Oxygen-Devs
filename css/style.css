@@ -231,7 +231,7 @@ nav {
 	}
 }
 
-.quate {
+.quote {
 	width: 60%;
 	height: 125px;
 	background-color:var(--bg-color);
@@ -242,27 +242,27 @@ nav {
 	font-family: serif; 
 	position: relative;
 }
-.quate-text {
+.qquote-text {
 	/* border: 1px solid rebeccapurple; */
 	width: 80%;
 	margin: 5px auto;
 }
-.quate-text q {
+.quote-text q {
 	font-size: 27px;
 	margin: 25px;
 }
-.quate-text p {
+.quote-text p {
 	text-align: right;
 }
-.quate img {
+.quote img {
 	position: absolute;
     width: 75px;
 }
-.quate1 {
+.quote1 {
 	
     top: -50px;
 }
-.quate2 {
+.quote2 {
 	bottom: -20px;
 	right: 25px;
 	transform: rotateY(180deg);
@@ -273,55 +273,59 @@ nav {
 footer {
 	background-color: var(--dark-color);
 	color: var(--bg-color);
-	padding: 25px;
+	padding: 2em ;
+	/* height: 300px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-content: flex-start;
+	align-content: space-around;
+}
+i {
+	transition: all 0.1s ease-in;
 }
 .main-footer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-content: flex-start;
+	flex-wrap: wrap;
 }
 .blaa {
 	width: 35%;
 }
-
+.index * {
+	display: block;
+	margin: 1px;
+}
+.index a:hover i {
+	color: var(--primary-color);
+}
 .contact * {
 	display: block;
+	margin: 1px;
 }
-.contact a:first-of-type:hover i {
-	color: #4267B2;
-}
-.contact a:nth-of-type(2):hover i { 
-	color: #00acee;
-}.contact a:nth-of-type(3):hover i {
-	color: #bc2a8d;
-}.contact a:nth-of-type(4):hover i {
-	color: #0072b1;
-}.contact a:last-of-type:hover i {
-	color: #FF0000;
-}
-
-
-
+.contact a:first-of-type:hover i {color: #4267B2;}
+.contact a:nth-of-type(2):hover i {color: #00acee;}
+.contact a:nth-of-type(3):hover i {color: #bc2a8d;}
+.contact a:nth-of-type(4):hover i {	color: #0072b1;}
+.contact a:last-of-type:hover i {color: #FF0000;}
 h3 {
 	font-size: 1.5em;
 	color: var(--primary-color);
 }
-
 .footer-bar {
-	margin: 25px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-
 span {
 	color: var(--primary-color);
 }
-
 .footer-bar p {
 	text-align: right;
+}
+.fa-heart {
+	color: #df2d2d;
+}
+.fa-coffee {
+	color: #734B3D;
 }
