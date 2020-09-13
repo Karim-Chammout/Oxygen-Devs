@@ -1,6 +1,6 @@
 /* Our Main Colors */
 :root {
-	--primary-color: #6BBEF2;
+	--primary-color: #009dff;
     --secondery-color: #0D0D0B;
 	--bg-color: #D2D9D8;
     --li-font-color: #FAFFF0;
@@ -265,7 +265,7 @@ body {
 .contact-us {
 	padding: 100px 0;
 	/* background-color: var(--primary-color); */
-	background: linear-gradient(to right, #0476D9, #6BBEF2);
+	background: linear-gradient(to right, #0476D9, #009dff);
 	color: var(--li-font-color);
 	font-size: 25px;
 }
