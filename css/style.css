@@ -6,7 +6,7 @@
     --li-font-color: #FAFFF0;
     --dr-font-color: #111;
 	--dark-color: #262626;
-	--pink-bg-color: #f3912044;
+	--pink-bg-color:#EB4680;
 }
 
 * {
@@ -166,8 +166,17 @@ body {
 
 /*      Start icon-explain      */
 
-.icon-explain i {
-	font-size: 50px;
+.icon-explain {
+	padding: 50px 0;
+}
+
+.icon-explain .icon-clr {
+	background-color: var(--primary-color);
+	color: var(--dark-color);
+	font-size: 70px;
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
 }
 
 /*      End icon-explain      */
@@ -240,7 +249,6 @@ body {
 }
 
 .double-img img {
-	/* width: 90vh; */
 	max-width: 100%;
 }
 
