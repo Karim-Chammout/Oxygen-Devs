@@ -51,19 +51,13 @@ header {
 
 .logo-container {
 	flex: 1;
+	width: 100%;
 }
 
-.logo {
-	color: #262626;
-	font-weight: 700;
-	font-size: 25px;
-	margin: 5px;
+.logo-container img {
+	width: 20vh;
 }
-.logo span {
-	color: #F24405;
-	font-weight: 900;
 
-}
 nav {
 	flex: 2;
 }
