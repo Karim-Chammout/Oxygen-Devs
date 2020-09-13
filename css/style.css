@@ -1,6 +1,6 @@
 /* Our Main Colors */
 :root {
-	--primary-color: #024B80;
+	--primary-color: #0476D9;
     --secondery-color: #0D0D0B;
 	--bg-color: #D2D9D8;
     --li-font-color: #FAFFF0;
@@ -194,7 +194,7 @@ body {
 
 .big-img .main-img {
 	background-image: url("../img/round-light-background.jpg");
-	background-size: contain;
+	/* background-size: contain; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 150vh;
