@@ -2,7 +2,7 @@
 :root {
 	--primary-color: #009dff;
     --secondery-color: #0D0D0B;
-	--bg-color: #D2D9D8;
+	--bg-color: #f0f5f7;
     --li-font-color: #FAFFF0;
     --dr-font-color: #111;
 	--dark-color: #262626;
@@ -45,7 +45,7 @@ body {
 
 /*      Start Navbar      */
 
-.navbar-brand span {
+/* .navbar-brand span {
     font-size: 40px;
 }
 
@@ -56,6 +56,10 @@ body {
 
 .navbar-brand span:last-child {
 	color: var(--secondery-color);
+} */
+
+.main-navbar .navbar-brand .oxygen-logo {
+	height: 15vh;
 }
 
 .navbar-nav .nav-link {
@@ -125,7 +129,7 @@ body {
 
 .features {
 	padding-bottom: 50px;
-	/* background-color: var(--bg-color); */
+	background-color: var(--bg-color);
 
 }
 
@@ -137,7 +141,7 @@ body {
 }
 
 .features .card {
-	box-shadow: 1px 1px 4px #333;
+	box-shadow: 1px 1px 4px #555;
 }
 
 .features .card:hover {
@@ -146,7 +150,7 @@ body {
 	-webkit-transition: .1s ease-in-out;
 	-moz-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
-	box-shadow: 2px 2px 5px #333, 2px 2px 5px #111 ;
+	box-shadow: 3px 3px 5px #666, 3px 3px 5px #666 ;
 }
 
 .features .card-image {
@@ -272,7 +276,8 @@ body {
 
 .contact-us a {
     color: var(--li-font-color);
-    border: 2px solid var(--dark-color);
+	border: 2px solid #034C8C;
+	border-radius: 5px;
     padding: 10px 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -280,8 +285,8 @@ body {
 }
 
 .contact-us a:hover {
-	color: var(--dark-color);
-	background-color: var(--li-font-color);
+	/* color: var(--li-font-color); */
+	background-color: rgba(255, 255, 255, .4);
 	transition: .4s ease-in-out;
 }
 
