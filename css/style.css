@@ -264,7 +264,8 @@ body {
 
 .contact-us {
 	padding: 100px 0;
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
+	background: linear-gradient(to right, #0476D9, #6BBEF2);
 	color: var(--li-font-color);
 	font-size: 25px;
 }
