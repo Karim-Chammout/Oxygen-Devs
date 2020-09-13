@@ -9,9 +9,6 @@
 	--pink-bg-color: #f3912044;
 }
 
-/* --blue-color: #0B8CD5; */
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -20,13 +17,10 @@
 }
 
 body {
-	/* background-color: #ffffff;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='88' y1='88' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%23064e77'/%3E%3Cstop offset='1' stop-color='%230a7dbe'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='75' y1='76' x2='168' y2='160'%3E%3Cstop offset='0' stop-color='%238f8f8f'/%3E%3Cstop offset='0.09' stop-color='%23b3b3b3'/%3E%3Cstop offset='0.18' stop-color='%23c9c9c9'/%3E%3Cstop offset='0.31' stop-color='%23dbdbdb'/%3E%3Cstop offset='0.44' stop-color='%23e8e8e8'/%3E%3Cstop offset='0.59' stop-color='%23f2f2f2'/%3E%3Cstop offset='0.75' stop-color='%23fafafa'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/linearGradient%3E%3Cfilter id='c' x='0' y='0' width='200%25' height='200%25'%3E%3CfeGaussianBlur in='SourceGraphic' stdDeviation='12' /%3E%3C/filter%3E%3C/defs%3E%3Cpolygon fill='url(%23a)' points='0 174 0 0 174 0'/%3E%3Cpath fill='%23000' fill-opacity='.5' filter='url(%23c)' d='M121.8 174C59.2 153.1 0 174 0 174s63.5-73.8 87-94c24.4-20.9 87-80 87-80S107.9 104.4 121.8 174z'/%3E%3Cpath fill='url(%23b)' d='M142.7 142.7C59.2 142.7 0 174 0 174s42-66.3 74.9-99.3S174 0 174 0S142.7 62.6 142.7 142.7z'/%3E%3C/svg%3E");
-	background-attachment: fixed;
+	background-color: #ffffff;
+	background-image: url("../img/Asset7.svg");
+	background-size: 95%;
 	background-repeat: no-repeat;
-	background-position: top left; */
-	background-color: #fff;
-	/* background-image: url("../img/memphis-colorful.png"); */
 }
 
 /*      Start Upper Bar      */
@@ -37,26 +31,12 @@ body {
 
 .upper-bar .info {
 	margin: 15px 0;
-    color: var(--li-font-color);
-	
+    color: var(--li-font-color);	
 }
 
 /*      End Upper Bar      */
 
 /*      Start Navbar      */
-
-/* .navbar-brand span {
-    font-size: 40px;
-}
-
-.navbar-brand span:first-child {
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-.navbar-brand span:last-child {
-	color: var(--secondery-color);
-} */
 
 .main-navbar .navbar-brand .oxygen-logo {
 	height: 15vh;
@@ -80,6 +60,10 @@ body {
 	padding: 50px 0;
 }
 
+.main-section .main-text {
+	animation: move 1.5s ease-in-out;
+}
+
 .main-section .main-text h1 {
 	margin-top: 15vh;
 	color: var(--secondery-color);
@@ -88,7 +72,7 @@ body {
 .main-section .res-img img {
 	height: 65vh;
 	filter: drop-shadow(7px 7px 8px black);
-	animation: drop 1.5s ease-in-out;
+	animation: drop 1.5s cubic-bezier(.49,.3,.49,.79);
 }
 
 .btn-outline-primary {
@@ -103,7 +87,7 @@ body {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-	box-shadow: 0 0 0 0.2rem rgba(255, 135, 0, 0.5);
+	box-shadow: 0 0 0 0.2remvar(--primary-color);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -120,7 +104,7 @@ body {
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-	box-shadow: 0 0 0 0.2rem rgba(255, 136, 0, 0.502);
+	box-shadow: 0 0 0 0.2rem var(--primary-color);
 }
 
 /*      End Main Section      */
@@ -129,8 +113,6 @@ body {
 
 .features {
 	padding-bottom: 50px;
-	background-color: var(--bg-color);
-
 }
 
 .features .h1 {
@@ -163,6 +145,10 @@ body {
 /*      Start Image-paragraph      */
 
 .para-img {
+	background-color: #ffffff;
+	background-image: url("../img/colorful-bg.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
 	padding: 50px 0;
 	margin: 50px 0 100px 0;
 }
@@ -181,13 +167,10 @@ body {
 /*      Start icon-explain      */
 
 .icon-explain i {
-	font-size: 50px		;
+	font-size: 50px;
 }
 
 /*      End icon-explain      */
-
-
-
 
 
 /*      Start Big Image      */
@@ -197,74 +180,33 @@ body {
 }
 
 .big-img .main-img {
-	background-image: url("../img/round-light-background.jpg");
-	/* background-size: contain; */
+	background-image: url("../img/podium-background2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 150vh;
+	max-height: 99.1vh;
 	text-align: center;
 }
 
-.big-img .oxy-logo {
-
-	font-size: 500px;
-	padding: 100px 0;
+.big-img .main-img img {
+	padding: 70px 0;
+	width: 80%;
 }
 
-.big-img .big-img-heading {
-	margin-top: 50px;
-	font-size: 90px;
+.big-img .para-image {
+	padding: 50px 0;
 }
 
 .big-img .big-img-para {
 	letter-spacing: 3px;
-	padding: 100px 0;
-	font-size: 40px;
+	font-size: 50px;
+	font-style: italic;
 }
 
 /*      End Big Image      */
 
 
-/*      Start Quote      */
+/*      Start Contact_us      */
 
-/* .quote {
-	padding: 50px 0;
-}
-
-.quote .quote-box {
-	padding-right: 50px;
-	background: rgb(130,129,131);
-	background: linear-gradient(90deg, rgba(130,129,131,1) 10%, rgba(145,145,161,1) 37%, rgba(202,206,207,1) 100%);
-	text-align: center;	
-	border-radius: 20px;
-}
-
-.quote .quote-box q {
-	font-size: 40px;
-	font-weight: bold;
-	font-style: italic;
-}
-
-.quote .quote-box p {
-	font-size: 20px;
-	text-align: right;
-}
-
-.quote .first-quote {
-	position: relative;
-	top: -70px;
-	left: 950px;
-	font-size: 100px;
-	color: var(--primary-color);
-}
-
-.quote .second-quote {
-	position: relative;
-	top: 90px;
-	right: 650px;
-	font-size: 100px;
-	color: var(--primary-color);
-} */
 
 .contact-us {
 	padding: 100px 0;
@@ -290,7 +232,7 @@ body {
 	transition: .4s ease-in-out;
 }
 
-/*      End Quote      */
+/*      End Contact_us      */
 
 
 /*      Start Double Image      */
@@ -318,18 +260,9 @@ body {
 	background-color: var(--dark-color);
 }
 
-.footer .site-info h2 {
-    font-size: 40px;
-    margin-bottom: 35px;
-}
-
-.footer .site-info h2 span:first-child {
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-.footer .site-info h2 span:last-child {
-    color: var(--li-font-color);
+.footer-oxygen-logo {
+	width: 30%;
+	margin-bottom: 15px;
 }
 
 .footer .site-info p {
@@ -385,6 +318,11 @@ body {
 
 .copyright h5 span:last-child {
 	color: var(--li-font-color);
+}
+
+.copyright .copy-heading {
+	margin-top: 5px;
+	font-size: 16px;
 }
 
 .copyright ul {
@@ -447,8 +385,20 @@ body {
 		opacity: 0;
 		transform: translateY(-100px);
 	}
+
 	100% {
 		opacity: 1;
-		transform: translateY(0px);
+		transform: translateY(0);
+	}
+}
+
+@keyframes move {
+	0% {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
 	}
 }
