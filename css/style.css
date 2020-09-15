@@ -64,46 +64,51 @@ body {
 	animation: move 1.5s ease-in-out;
 }
 
+.main-section .main-text span {
+	font-weight: 500;
+}
+
 .main-section .main-text h1 {
-	margin-top: 15vh;
+	margin-top: 12vh;
 	color: var(--secondery-color);
 }
 
 .main-section .res-img img {
-	height: 65vh;
+	height: 60vh;
 	filter: drop-shadow(7px 7px 8px black);
 	animation: drop 1.5s cubic-bezier(.49,.3,.49,.79);
 }
 
-.btn-outline-primary {
+.contact-us-button {
 	color: var(--primary-color);
 	border-color: var(--primary-color);
+	padding: 15px 30px;
 }
 
-.btn-outline-primary:hover {
+.contact-us-button:hover {
 	color: #fff;
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
 }
 
-.btn-outline-primary:focus, .btn-outline-primary.focus {
+.contact-us-button:focus, .contact-us-button.focus {
 	box-shadow: 0 0 0 0.2remvar(--primary-color);
 }
 
-.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+.contact-us-button.disabled, .contact-us-button:disabled {
 	color: var(--primary-color);
 	background-color: transparent;
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
-.show > .btn-outline-primary.dropdown-toggle {
+.contact-us-button:not(:disabled):not(.disabled):active, .contact-us-button:not(:disabled):not(.disabled).active,
+.show > .contact-us-button.dropdown-toggle {
 	color: #fff;
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-primary.dropdown-toggle:focus {
+.contact-us-button:not(:disabled):not(.disabled):active:focus, .contact-us-button:not(:disabled):not(.disabled).active:focus,
+.show > .contact-us-button.dropdown-toggle:focus {
 	box-shadow: 0 0 0 0.2rem var(--primary-color);
 }
 
@@ -142,15 +147,42 @@ body {
 
 /*      End Features      */
 
+
+/*      Start Overview      */
+
+.overview {
+	padding: 50px 0 0 0;
+}
+
+.overview .h1 {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 50px 0;
+}
+
+.overview p {
+	line-height: 2;
+}
+
+.overview span {
+	margin-bottom: 15px;
+	display: block;
+	letter-spacing: 3px;
+	color: var(--dark-color);
+}
+
+/*      End Overview      */
+
+
 /*      Start Image-paragraph      */
 
 .para-img {
+	padding: 50px 0;
+	margin: 50px 0 100px 0;
 	background-color: #ffffff;
 	background-image: url("../img/colorful-bg.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	padding: 50px 0;
-	margin: 50px 0 100px 0;
 }
 
 .para-img .text-para {
@@ -170,13 +202,19 @@ body {
 	padding: 50px 0;
 }
 
+.icon-explain .h1 {
+	padding: 0 0 50px 0;
+	font-size: 50px;
+	font-weight: bold;
+}
+
 .icon-explain .icon-clr {
-	background-color: var(--primary-color);
-	color: var(--dark-color);
-	font-size: 70px;
-	width: 100px;
-	height: 100px;
-	margin: 10px auto;
+	color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+	font-size: 50px;
+	display: inline-block;
+	padding: 25px 45px;
+	margin-bottom: 15px;
 }
 
 /*      End icon-explain      */
@@ -249,11 +287,12 @@ body {
 }
 
 .double-img img {
-	max-width: 100%;
+	height: 60vh;
+	width: 100vh;
 }
 
 .double-img p {
-	line-height: 2.5;
+	line-height: 2;
 }
 
 /*      End Double Image      */
