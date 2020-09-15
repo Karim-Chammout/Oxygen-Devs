@@ -185,6 +185,10 @@ body {
 	background-size: contain;
 }
 
+.para-img .mar-top {
+	margin-top: 50px;
+}
+
 .para-img .text-para {
 	margin-top: 100px;
 }
