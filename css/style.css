@@ -295,16 +295,17 @@ body {
 /*      Start Double Image      */
 
 .double-img {
-	padding: 100px 0;
+	padding: 100px 0 50px 0;
 }
 
 .double-img img {
-	height: 60vh;
-	width: 100vh;
+	max-height: 80%;
+	max-width: 100%;
 }
 
 .double-img p {
-	line-height: 2;
+	line-height: 2.2;
+	padding-top: 20px;
 }
 
 /*      End Double Image      */
