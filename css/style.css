@@ -64,13 +64,18 @@ body {
 	animation: move 1.5s ease-in-out;
 }
 
+.main-section .main-text h1 {
+	margin-top: 12vh;
+	color: var(--secondery-color);
+	font-size: 60px;
+}
+
 .main-section .main-text span {
 	font-weight: 500;
 }
 
-.main-section .main-text h1 {
-	margin-top: 12vh;
-	color: var(--secondery-color);
+.main-section .main-text p {
+	font-size: 28px;
 }
 
 .main-section .res-img img {
@@ -129,6 +134,7 @@ body {
 
 .features .card {
 	box-shadow: 1px 1px 4px #555;
+	min-height: 100%;
 }
 
 .features .card:hover {
