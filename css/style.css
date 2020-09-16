@@ -65,7 +65,7 @@ body {
 }
 
 .main-section .main-text h1 {
-	margin-top: 12vh;
+	margin-top: 7vh;
 	color: var(--secondery-color);
 	font-size: 60px;
 }
@@ -80,6 +80,7 @@ body {
 
 .main-section .res-img img {
 	height: 60vh;
+	max-width: 100%;
 	filter: drop-shadow(7px 7px 8px black);
 	animation: drop 1.5s cubic-bezier(.49,.3,.49,.79);
 }
@@ -201,6 +202,7 @@ body {
 
 .para-img .img-para img {
 	height: 60vh;
+	max-width: 100%;
 }
 
 /*      End Image-paragraph      */
