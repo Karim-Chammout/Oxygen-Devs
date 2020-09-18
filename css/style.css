@@ -6,7 +6,6 @@
     --li-font-color: #FAFFF0;
     --dr-font-color: #111;
 	--dark-color: #262626;
-	--pink-bg-color:#EB4680;
 }
 
 * {
@@ -22,6 +21,18 @@ body {
 	background-size: 95%;
 	background-repeat: no-repeat;
 }
+
+
+/* Start Body @media */
+
+@media (max-width: 575.98px) {
+	body {
+		background-size: 100%;
+	}
+}
+
+/* End Body @media */
+
 
 /*      Start Upper Bar      */
 
@@ -51,6 +62,23 @@ body {
 .navbar-nav .nav-link:hover {
     color: var(--primary-color) !important ;
 }
+
+
+/*      Start Navbar @media      */
+@media (max-width: 575.98px) {
+	.main-navbar .navbar-brand .oxygen-logo {
+		height: 9vh;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.main-navbar .navbar-brand .oxygen-logo {
+		height: 12vh;
+	}
+}
+
+/*      End Navbar @media       */
+
 
 /*      End Navbar      */
 
@@ -118,41 +146,78 @@ body {
 	box-shadow: 0 0 0 0.2rem var(--primary-color);
 }
 
-/*      End Main Section      */
+/* Start Main Section @media */
 
-/*      Start Features      */
-
-.features {
-	padding-bottom: 50px;
+@media (max-width:575.98px) {
+	.main-section {
+		padding: 20px 20px 50px;
+	}
+	.main-section .main-text h1 {
+		margin-top: 5vh;
+		color: var(--secondery-color);
+		font-size: 47px;
+		padding-bottom: 10px;
+	}	
+	.main-section .res-img img {
+		max-width: 95%;
+		display: block;
+		margin: 40px auto 0;
+		}
 }
 
-.features .h1 {
+/* End Main Section @media */
+
+
+/*      End Main Section      */
+
+/*      Start how-works      */
+
+.how-works {
+	padding-bottom: 50px;
+	color: #111 !important;
+}
+
+.how-works .h1 {
 	padding: 50px 0;
 	font-size: 50px;
 	font-weight: bold;
 	color: var(--dr-font-color);
 }
 
-.features .card {
+.how-works .card {
 	box-shadow: 1px 1px 4px #555;
 	min-height: 100%;
 }
 
-.features .card:hover {
+.how-works .card:hover {
 	position: relative;
 	top: -1px;
 	-webkit-transition: .1s ease-in-out;
 	-moz-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
-	box-shadow: 3px 3px 5px #666, 3px 3px 5px #666 ;
+	box-shadow: 3px 3px 5px #444, 3px 3px 5px #444 ;
+	background: linear-gradient(to right, #0476D9, #256ab3, #009dff);
 }
 
-.features .card-image {
+.how-works .card-image {
 	height: 50vh;
 	padding: 20px;
 }
 
-/*      End Features      */
+/* Start how-works @media */
+
+@media (max-width:575.98px) {
+	.how-works {
+		padding-bottom: 0;
+	}
+	.how-works .m-between {
+		margin: 20px;
+	}
+}
+
+/* End how-works @media */
+
+/*      End how-works      */
 
 
 /*      Start Overview      */
@@ -177,6 +242,20 @@ body {
 	letter-spacing: 3px;
 	color: var(--dark-color);
 }
+
+/* Start Overview @media */
+
+@media (max-width:575.98px) {
+	.overview p {
+		text-align: justify;
+		padding: 0 20px;
+	}
+	.overview span {
+		margin: 20px 0;
+	}
+}
+
+/* End Overview @media */
 
 /*      End Overview      */
 
@@ -204,6 +283,35 @@ body {
 	height: 60vh;
 	max-width: 100%;
 }
+
+/* Start Image-para @media */
+
+@media (max-width:575.98px) {
+	.para-img {
+		margin: 0;
+	}
+	.para-img .text-para {
+		margin: 50px 0;
+		text-align: justify;
+		padding: 0 30px;
+	}
+	.para-img .img-para img {
+		max-width: 95%;
+		display: block;
+		margin: auto;
+	}
+	.para-img .move {
+		display: flex;
+	}
+	.para-img .move-img {
+		order: 2;
+	}
+	.para-img .move-para {
+		order: 1;
+	}
+}
+
+/* End Image-para @media */
 
 /*      End Image-paragraph      */
 
