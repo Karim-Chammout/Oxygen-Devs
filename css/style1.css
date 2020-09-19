@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    scroll-behavior: smooth;
+}
+
+section {
+    display: flex;
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	/* min-height: 80vh; */
+	align-items: center;
+	position: relative;
+	background: url(/img/screen-start-customization-saver-black-nvidia-18234.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	clip-path: circle(180vh at 50% -80vh);
+}
+
+.contant {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
