@@ -55,12 +55,15 @@
         display: flex;
         align-items: center;
     }
+    .hero .main-text {
+        margin: auto;
+    }
     .hero h2 {
         color: var(--li-font-color);
-        font-size: 50px;
+        font-size: 35px;
     }
     .hero p {
-        font-size: 25px;
+        font-size: 20px;
         color: var(--li-font-color);
     }
 }
