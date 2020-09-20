@@ -102,7 +102,7 @@
 }
 
 .image-paragraph img {
-    max-width: 100%;
+    height: 70vh;
     filter: grayscale(30%);
 }
 

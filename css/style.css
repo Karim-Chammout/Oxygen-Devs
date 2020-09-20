@@ -63,6 +63,24 @@ body {
     color: var(--primary-color) !important ;
 }
 
+.cont-btn {
+	color: var(--li-font-color) !important;
+	border: 1px solid var(--primary-color);
+	border-radius: 5px;
+	padding: 10px 15px;
+	background-color: var(--primary-color);
+}
+
+.cont-btn:hover {
+	color: #fff;
+	background-color: transparent;
+	border-color: var(--primary-color);
+	box-shadow: 0 0 0 0.2rem var(--primary-color);
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
 
 /*      Start Navbar @media      */
 @media (max-width: 575.98px) {
@@ -126,7 +144,7 @@ body {
 }
 
 .contact-us-button:focus, .contact-us-button.focus {
-	box-shadow: 0 0 0 0.2remvar(--primary-color);
+	box-shadow: 0 0 0 0.2rem var(--primary-color);
 }
 
 .contact-us-button.disabled, .contact-us-button:disabled {
@@ -337,7 +355,7 @@ body {
 /*      Start quote-logo      */
 
 .quote-logo {
-	background-image: url("../img/bg-pop.jpg");
+	background-image: url("../img/bg-pop-image.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -447,6 +465,16 @@ body {
 	margin-right: 5px;
 }
 
+.footer .helpful-links li a {
+	text-decoration: none;
+	color: var(--li-font-color);
+}
+
+.footer .helpful-links li a:hover {
+	border-top: 1px solid var(--primary-color);
+	border-bottom: 1px solid var(--primary-color);
+
+}
 .footer .helpful-links li,
 .footer .contact li {
 	color: var(--li-font-color);
@@ -532,8 +560,8 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.copyright ul li .i-yout:hover {
-	color: #FF0000;
+.copyright ul li .i-tele:hover {
+	color: #0088cc;
 	-webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
