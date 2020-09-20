@@ -60,10 +60,10 @@
     }
     .hero h2 {
         color: var(--li-font-color);
-        font-size: 35px;
+        font-size: 40px;
     }
     .hero p {
-        font-size: 20px;
+        font-size: 25px;
         color: var(--li-font-color);
     }
 }
