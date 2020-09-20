@@ -103,6 +103,7 @@
 
 .image-paragraph img {
     max-width: 100%;
+    filter: grayscale(30%);
 }
 
 /*      End Image-Paragraph      */
