@@ -40,6 +40,11 @@ body {
 	background-color: var(--dark-color);
 }
 
+.upper-bar .info:first-child::before {
+	content: "\f0e0";
+	font-family: "fontawesome";
+}
+
 .upper-bar .info {
 	margin: 15px 0;
     color: var(--li-font-color);	
@@ -95,10 +100,14 @@ body {
 	}
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.main-navbar .navbar-brand .oxygen-logo {
+		height: 11vh;
+	}
+}
 /*      End Navbar @media       */
-
-
 /*      End Navbar      */
+
 
 /*      Start Main Section      */
 
@@ -183,6 +192,19 @@ body {
 		}
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.main-section .res-img img {
+		margin-top: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.main-section .main-text h1 {
+		font-size: 40px;
+		font-weight: bold;
+	}	
+}
+
 /* End Main Section @media */
 
 
@@ -223,6 +245,14 @@ body {
 	}
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
 /* End how-works @media */
 
 /*      End how-works      */
@@ -255,12 +285,20 @@ body {
 
 @media (max-width:575.98px) {
 	.overview p {
-		text-align: justify;
+		text-align: left;
 		padding: 0 20px;
 	}
 	.overview span {
 		margin: 20px 0;
 	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
 }
 
 /* End Overview @media */
@@ -319,6 +357,14 @@ body {
 	}
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
 /* End Image-para @media */
 
 /*      End Image-paragraph      */
@@ -348,6 +394,22 @@ body {
 	width: 10vh;
 	height: 10vh;
 }
+
+/* Start icon-explain @media */
+
+@media (max-width:575.98px) {
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* End icon-explain @media */
 
 	/*      End icon-explain      */
 
@@ -383,6 +445,25 @@ body {
 	min-width: 100%;
 }
 
+/* Start quote-logo @media */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.quote-logo img {
+		max-height: 80%;
+		max-width: 70%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* End quote-logo @media */
+
 /*      End quote-logo      */
 
 
@@ -411,26 +492,58 @@ body {
 	transition: .4s ease-in-out;
 }
 
+/* Start Contact_us @media */
+
+@media (max-width:575.98px) {
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* End Contact_us @media */
+
 /*      End Contact_us      */
 
 
-/*      Start Double Image      */
+/*      Start ideas      */
 
-.double-img {
+.ideas {
 	padding: 100px 0 50px 0;
 }
 
-.double-img img {
+.ideas img {
 	max-height: 80%;
 	max-width: 100%;
 }
 
-.double-img p {
+.ideas p {
 	line-height: 2.2;
 	padding-top: 20px;
 }
 
-/*      End Double Image      */
+/* Start ideas @media */
+
+@media (max-width:575.98px) {
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* End ideas @media */
+
+/*      End ideas      */
 
 
 /*      Start Footer      */
@@ -483,6 +596,22 @@ body {
 .footer .contact ul li {
 	margin-bottom: 16px;
 }
+
+/* Start Footer @media */
+
+@media (max-width:575.98px) {
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* End Footer @media */
 
 /*      End Footer      */
 
@@ -566,6 +695,22 @@ body {
     -moz-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
+
+/* Start CopyRight @media */
+
+@media (max-width:575.98px) {
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* End CopyRight @media */
 
 /*      End CopyRight      */
 
