@@ -487,12 +487,10 @@ body {
 	color: var(--li-font-color);
 	font-size: 50px;
 	text-shadow: 1px 1px 5px black ;
-
 }
 
 .quote-logo img {
 	padding: 40px 0;
-	/* margin: auto; */
 	display: block;
 	margin: auto;
 	height: 80vh;
@@ -501,19 +499,37 @@ body {
 
 /* Start quote-logo @media */
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width:575.98px) {
+	.quote-para p {
+		margin: 50px 0;
+		font-size: 28px;
+	}
 	.quote-logo img {
-		max-height: 80%;
+		max-height: 50vh;
 		max-width: 70%;
 	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.quote-para p {
+		margin: 50px 0;
+		font-size: 33px;
+	}
+	.quote-logo img {
+		max-height: 60vh;
+		max-width: 75%;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	.quote-para p {
+		margin: 50px 0;
+		font-size: 40px;
+	}
+	.quote-logo img {
+		max-height: 70vh;
+		max-width: 90%;
+	}
 }
 
 /* End quote-logo @media */
@@ -549,11 +565,15 @@ body {
 /* Start Contact_us @media */
 
 @media (max-width:575.98px) {
-	
+	.contact-us .margin-top {
+		margin: 40px 0 0 0;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.contact-us .margin-top {
+		margin: 40px 0 0 0;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -592,7 +612,11 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	/* .ideas .image-div {
+		
+	}
+	.ideas .image-div {
+	} */
 }
 
 /* End ideas @media */
