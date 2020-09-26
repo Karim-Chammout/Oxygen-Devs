@@ -65,7 +65,7 @@
         font-size: 40px;
     }
     .hero p {
-        font-size: 30px;
+        font-size: 25px;
         color: var(--li-font-color);
         text-shadow: 1px 1px 5px #000;
     }
@@ -131,6 +131,19 @@
     }
     .image-paragraph .midle-img .text-padding {
         order: 1;
+    }
+    .image-paragraph h3 {
+        font-size: 16px;
+    }
+    .image-paragraph h2 {
+        font-size: 35px;
+    }
+    .image-paragraph .text-padding p {
+        font-size: 19px;
+        
+    }
+    .image-paragraph img {
+        height: 60vh;
     }
 }
 
