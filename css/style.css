@@ -246,7 +246,7 @@ body {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.how-works .m-between {
-		margin: 20px;
+		margin: 20px 0;
 	}
 }
 
@@ -604,19 +604,42 @@ body {
 /* Start ideas @media */
 
 @media (max-width:575.98px) {
-	
+	.ideas h2 {
+		font-size: 32px;
+	}
+	.ideas p {
+		line-height: 1.8;
+		padding-top: 20px;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.ideas h2 {
+		font-size: 32px;
+	}
+	.ideas p {
+		line-height: 1.8;
+		padding-top: 20px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-	/* .ideas .image-div {
-		
+	.ideas h2 {
+		font-size: 32px;
+	}
+	.ideas p {
+		line-height: 1.8;
+		padding-top: 20px;
 	}
 	.ideas .image-div {
-	} */
+		display: flex;
+		
+	}
+	.ideas .image-div img {
+		justify-content: center;
+		align-items: center;
+		height: 60vh;
+	}
 }
 
 /* End ideas @media */
@@ -678,15 +701,37 @@ body {
 /* Start Footer @media */
 
 @media (max-width:575.98px) {
-	
+	.footer .site-info p {
+		line-height: 1.8;
+		font-size: 18px;
+	}
+	.footer .helpful-links h2,
+	.footer .contact h2 {
+		margin: 30px 0 10px 0;
+	}
+	.footer .contact ul li {
+		margin-bottom: 10px;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.footer .helpful-links h2,
+	.footer .contact h2 {
+		margin: 30px 0 10px 0;
+	}
+	.footer .contact ul li {
+		margin-bottom: 10px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	.footer .helpful-links h2,
+	.footer .contact h2 {
+		margin: 30px 0 10px 0;
+	}
+	.footer .contact ul li {
+		margin-bottom: 10px;
+	}
 }
 
 /* End Footer @media */
@@ -777,15 +822,29 @@ body {
 /* Start CopyRight @media */
 
 @media (max-width:575.98px) {
-	
+	.copyright {
+		padding: 20px 20px 0 20px;
+	}
+	.copyright ul {
+		margin: 20px 0;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.copyright {
+		padding: 20px 20px 0 20px;
+	}
+	.copyright h5 {
+		text-align: center;
+	}
+	.copyright ul {
+		margin: 20px 0;
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+
 }
 
 /* End CopyRight @media */
@@ -842,6 +901,9 @@ body {
 		opacity: 1;
 	}
 } */
+
+
+
 /*      End Loading      */
 
 
