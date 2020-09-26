@@ -502,7 +502,7 @@ body {
 @media (max-width:575.98px) {
 	.quote-para p {
 		margin: 50px 0;
-		font-size: 28px;
+		font-size: 35px;
 	}
 	.quote-logo img {
 		max-height: 50vh;
@@ -513,7 +513,7 @@ body {
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.quote-para p {
 		margin: 50px 0;
-		font-size: 33px;
+		font-size: 40px;
 	}
 	.quote-logo img {
 		max-height: 60vh;
@@ -524,7 +524,7 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.quote-para p {
 		margin: 50px 0;
-		font-size: 40px;
+		font-size: 45px;
 	}
 	.quote-logo img {
 		max-height: 70vh;
