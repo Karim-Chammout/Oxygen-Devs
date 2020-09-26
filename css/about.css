@@ -45,6 +45,9 @@
     color: var(--li-font-color);
 }
 
+/*      Start Hero-Section @media      */
+
+
 @media (max-width:575.98px) {
     .hero {
         background: url("../img/about_1.jpg") no-repeat fixed;
@@ -67,6 +70,7 @@
         color: var(--li-font-color);
     }
 }
+/*      End Hero-Section @media      */
 
 /*      End Hero-Section      */
 
@@ -105,6 +109,31 @@
     height: 70vh;
     filter: grayscale(30%);
 }
+
+/*      Start Image-Paragraph @media      */
+
+
+@media (max-width:575.98px) {
+	.image-paragraph .midle-img {
+        display: flex;
+    }
+    .image-paragraph .midle-img .vision-img {
+        order: 2;
+    }
+    .image-paragraph .midle-img .text-padding {
+        order: 1;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/*      End Image-Paragraph @media      */
 
 /*      End Image-Paragraph      */
 
