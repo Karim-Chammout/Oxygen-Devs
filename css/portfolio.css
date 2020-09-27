@@ -23,8 +23,12 @@
     height: auto;
 }
 .main-heading .big-text {
+    font-weight: bold;
     font-size: 70px;
+    color: var(--dark-color);
     padding: 50px 0;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
 }
 
 .proj-btn {
