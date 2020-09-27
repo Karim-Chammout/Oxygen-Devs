@@ -1,0 +1,36 @@
+/* Our Main Colors */
+:root {
+	--primary-color: #009dff;
+    --secondery-color: #0D0D0B;
+	--bg-color: #f0f5f7;
+    --li-font-color: #FAFFF0;
+    --dr-font-color: #111;
+	--dark-color: #262626;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*      Start Slider      */
+
+.work-slider .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.main-heading .big-text {
+    font-size: 70px;
+    padding: 50px 0;
+}
+
+.proj-btn {
+    margin-bottom: 30px;
+}
+
+/*      End Slider      */
+
+
