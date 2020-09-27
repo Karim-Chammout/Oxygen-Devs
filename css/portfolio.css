@@ -22,9 +22,15 @@
     max-width: 100%;
     height: auto;
 }
-.big-text {
+.main-heading .big-text {
     font-size: 70px;
     padding: 50px 0;
 }
 
+.proj-btn {
+    margin-bottom: 30px;
+}
+
 /*      End Slider      */
+
+
