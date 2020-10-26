@@ -35,6 +35,20 @@
     margin-bottom: 30px;
 }
 
+
+@media (max-width: 767.98px) {
+    .carousel-caption {
+        bottom: -15px;
+    }
+    
+	.contact-us-button {
+        padding: 5px 10px;
+	}
+}
+
+
+
+
 /*      End Slider      */
 
 
