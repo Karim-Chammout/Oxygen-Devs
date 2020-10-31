@@ -1,22 +1,5 @@
-/* Our Main Colors
+/* Our Main Colors */
 :root {
-<<<<<<< HEAD
-    --primary-color: #D90416;
-    --secondery-color: #030BA6;
-    --bg-color: #D2D9D8;
-    --white-color: #FAFFF0;
-    --dark-color: #444A3E;
-} */
-
-:root {
-    --primary-color: #F24405;
-    --secondery-color: #0052A1;
-    --bg-color: #D2D9D8;
-    --white-color: #FAFFF0;
-    --dark-color: #262626;
-}
-
-=======
 	--primary-color: #009dff;
     --secondery-color: #0D0D0B;
 	--bg-color: #f0f5f7;
@@ -25,31 +8,18 @@
 	--dark-color: #262626;
 }
 
->>>>>>> Karim-branch
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-.hidden {
-	visibility: hidden;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-}
+
 body {
-<<<<<<< HEAD
-	font-family: fontAwesome;
-	font-family: fontAwesome, Times, serif;
-	font-family: 'Font Awesome 5 Brands' , 'Font Awesome 5 Free','Poppins', fontAwesome, sans-serif;
-=======
 	background-color: #ffffff;
 	background-image: url("../img/Asset7.svg");
 	background-size: 95%;
 	background-repeat: no-repeat;
->>>>>>> Karim-branch
 }
 
 
@@ -75,15 +45,6 @@ body {
 	font-family: "fontawesome";
 }
 
-<<<<<<< HEAD
-.logo-container {
-	flex: 1;
-	width: 100%;
-}
-
-.logo-container img {
-	width: 20vh;
-=======
 .upper-bar .info {
 	margin: 15px 0;
     color: var(--li-font-color);	
@@ -95,7 +56,6 @@ body {
 
 .main-navbar .navbar-brand .oxygen-logo {
 	height: 12vh;
->>>>>>> Karim-branch
 }
 
 .navbar-nav .nav-link {
@@ -148,26 +108,11 @@ body {
 /*      End Navbar @media       */
 /*      End Navbar      */
 
-<<<<<<< HEAD
-.presentation {
-	display: flex;
-	width: 100%;
-	height: 100vh;
-	margin: auto;
-	/* min-height: 80vh; */
-	align-items: center;
-	position: relative;
-	background-color: url(/img/screen-start-customization-saver-black-nvidia-18234.jpg);
-	/* background-size: cover; */
-	background-attachment: fixed;
-	clip-path: circle(180vh at 50% -80vh);
-=======
 
 /*      Start Main Section      */
 
 .main-section {
 	padding: 50px 0;
->>>>>>> Karim-branch
 }
 
 .main-section .main-text {
@@ -216,21 +161,11 @@ body {
 	background-color: transparent;
 }
 
-<<<<<<< HEAD
-.introduction .main-btn .hire-btn:hover {
-	-webkit-transition: .3s ease-in-out;
-	-moz-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	color: #F2F2F2;
-	/* background: linear-gradient(to right, #051726, #020659, #F29F05, #BF9663, #F2F2F2); */
-	background-color: #0052A1;
-=======
 .contact-us-button:not(:disabled):not(.disabled):active, .contact-us-button:not(:disabled):not(.disabled).active,
 .show > .contact-us-button.dropdown-toggle {
 	color: #fff;
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
->>>>>>> Karim-branch
 }
 
 .contact-us-button:not(:disabled):not(.disabled):active:focus, .contact-us-button:not(:disabled):not(.disabled).active:focus,
@@ -799,105 +734,6 @@ body {
 	}
 }
 
-<<<<<<< HEAD
-.quote {
-	width: 60%;
-	height: 125px;
-	background-color:var(--bg-color);
-	color: var(--dark-color);
-	padding: 25px;
-	margin: 40px auto;
-	border-radius: 25px;
-	font-family: serif; 
-	position: relative;
-}
-.qquote-text {
-	/* border: 1px solid rebeccapurple; */
-	width: 80%;
-	margin: 5px auto;
-}
-.quote-text q {
-	font-size: 27px;
-	margin: 25px;
-}
-.quote-text p {
-	text-align: right;
-}
-.quote img {
-	position: absolute;
-    width: 75px;
-}
-.quote1 {
-	
-    top: -50px;
-}
-.quote2 {
-	bottom: -20px;
-	right: 25px;
-	transform: rotateY(180deg);
-}
-
-
-
-footer {
-	background-color: var(--dark-color);
-	color: var(--bg-color);
-	padding: 2em ;
-	/* height: 300px; */
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-content: space-around;
-}
-i {
-	transition: all 0.1s ease-in;
-}
-.main-footer {
-	display: flex;
-	justify-content: space-between;
-	align-content: flex-start;
-	flex-wrap: wrap;
-}
-.blaa {
-	width: 35%;
-}
-.index * {
-	display: block;
-	margin: 1px;
-}
-.index a:hover i {
-	color: var(--primary-color);
-}
-.contact * {
-	display: block;
-	margin: 1px;
-}
-.contact a:first-of-type:hover i {color: #4267B2;}
-.contact a:nth-of-type(2):hover i {color: #00acee;}
-.contact a:nth-of-type(3):hover i {color: #bc2a8d;}
-.contact a:nth-of-type(4):hover i {	color: #0072b1;}
-.contact a:last-of-type:hover i {color: #FF0000;}
-h3 {
-	font-size: 1.5em;
-	color: var(--primary-color);
-}
-.footer-bar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-span {
-	color: var(--primary-color);
-}
-.footer-bar p {
-	text-align: right;
-}
-.fa-heart {
-	color: #df2d2d;
-}
-.fa-coffee {
-	color: #734B3D;
-=======
 /* End Footer @media */
 
 /*      End Footer      */
@@ -1097,5 +933,4 @@ span {
 		opacity: 1;
 		transform: translateX(0);
 	}
->>>>>>> Karim-branch
 }
