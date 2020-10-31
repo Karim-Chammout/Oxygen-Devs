@@ -20,6 +20,8 @@ body {
 	background-image: url("../img/Asset7.svg");
 	background-size: 95%;
 	background-repeat: no-repeat;
+    scroll-behavior: smooth;
+
 }
 
 

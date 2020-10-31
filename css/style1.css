@@ -1,12 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    scroll-behavior: smooth;
-}
-
 section {
     display: flex;
 	width: 100%;
@@ -28,4 +20,26 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #fff;
+} 
+
+
+.main-board {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-board h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    color: var(--dr-font-color);
+    margin: 25px;
+}
+.main-board img {
+    width: 100%;
+    margin: 10px;
+    box-shadow: 5px 5px 10px var(--dark-color);
 }
